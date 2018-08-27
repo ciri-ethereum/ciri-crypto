@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Crypto module of [Ciri](https://github.com/ciri-ethereum/ciri)}
   spec.description   = %q{A Ciri crypto module}
-  spec.homepage      = "https://github.com/ciri-ethereum/ciri"
-  spec.license       = "Apache 2.0"
+  spec.homepage      = "https://github.com/ciri-ethereum/ciri-crypto"
+  spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
