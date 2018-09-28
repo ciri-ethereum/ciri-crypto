@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ```ruby
   # signature
-  Ciri::Crypto.esdsa_signature("\x00...(privkey)", "\x00...(data)")
+  Ciri::Crypto.ecdsa_signature("\x00...(privkey)", "\x00...(data)")
   
   # recover
   Ciri::Crypto.ecdsa_recover("I\x90...(signed hash)", "f\xAA...(signature)", return_raw_key: true)
